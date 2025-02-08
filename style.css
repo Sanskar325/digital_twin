@@ -89,7 +89,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #b6cdbd;
+    background: rgba(0, 0, 0, 0.5);
 }
 .navbar .max-width{
     display: flex;
@@ -166,10 +166,10 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/city6.jpeg") no-repeat center;
+    background: url("images/city4.jpeg") no-repeat center;
   
     height: 100vh;
-    color: #fff;
+    color: white;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
