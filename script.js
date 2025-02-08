@@ -33,7 +33,7 @@ $(document).ready(function(){
 
     // Typing animation effect
     var typed = new Typed(".typing", {
-        strings: ["A Tech Enthusiast", "Creators", "Solvers", "& an Engineer"],
+        strings: ["Tech Enthusiasts", "Creators", "Solvers", " Engineers"],
         typeSpeed: 50,
         backSpeed: 90,
         loop: true
@@ -244,4 +244,4 @@ window.addEventListener('resize', () => {
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
   renderer.setSize(window.innerWidth, window.innerHeight);
-});``
+});`
